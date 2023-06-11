@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/*  */
+.highlight-text {
+  width: 500px;
+  height: 400px;
+  font-weight: 500;
+  font-size: 70px;
+  color: #000000;
+}
+.highlight-text span {
+  color: #ff9933;
+}
+
+/*  */
+.product-container-card-header-color {
+  color: #000000;
+}
+
+.product-container {
+  width: 235px;
+  min-height: 246px;
+  padding: 0px 17px;
+  cursor: pointer;
+  margin: 6px 0 6px 0;
+  /* background: #ff9933; */
+}
+
+.product-container-Img-Container {
+  /* margin: 0px 17px; */
+  min-width: 100px;
+  max-height: 150px;
+  /* background: url("/images/Rectangle\ 1.png"); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: scale-down;
+  background-position: center;
+}
+
+.product-container-content p {
+  font-size: small;
+  font-weight: 700;
+  line-height: 24px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.product-container-content span {
+  font-weight: 700;
+  /* */
+}
+
+.product-container-price {
+  text-decoration: line-through;
+  font-size: x-small;
+}
+
+.product-container-discount {
+  color: #ff3232;
+  font-size: x-small;
+}
+
+.procuct-efective-price {
+  color: #138808;
+  font-size: small;
+}

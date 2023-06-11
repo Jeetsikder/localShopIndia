@@ -1,0 +1,27 @@
+@media only screen and (max-width: 990px) {
+  .highlight-text {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .highlight-text {
+    font-size: 50px;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .highlight-text {
+    font-size: 45px;
+    font-weight: 400;
+    min-height: 300px;
+    width: 100vw;
+  }
+}
+@media only screen and (max-width: 220px) {
+  .highlight-text {
+    font-size: 35px;
+    font-weight: 300;
+    min-height: 300px;
+  }
+}
